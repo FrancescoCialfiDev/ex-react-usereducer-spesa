@@ -1,0 +1,84 @@
+.ul {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(174, 210, 214);
+  list-style: none;
+}
+.li {
+  font-size: 20px;
+  color: rgb(19, 18, 18);
+  margin-bottom: 15px;
+}
+.d_flex {
+  display: flex;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.buttonAdd {
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(23, 145, 7);
+  color: white;
+  cursor: pointer;
+}
+.buttonDelete {
+  width: 120px;
+  height: 30px;
+  margin-left: 15px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgb(145, 23, 7);
+  color: white;
+  cursor: pointer;
+}
+
+.buttonAdd:hover {
+  background-color: rgb(12, 75, 4);
+}
+.buttonDelete:hover {
+  background-color: rgb(61, 20, 8);
+}
+
+.contenuto {
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+  width: 400px;
+  height: 500px;
+  padding: 15px;
+  -webkit-box-shadow: 0px -1px 20px -2px rgb(174, 210, 214);
+  -moz-box-shadow: 0px -1px 20px -2px rgb(174, 210, 214);
+  box-shadow: 0px -1px 20px -2px rgb(174, 210, 214);
+}
+
+.quantity {
+  background-color: green;
+  padding: 5px;
+  color: aliceblue;
+  margin-right: 10px;
+}
+.price {
+  background-color: rgb(190, 94, 4);
+  padding: 5px;
+  color: aliceblue;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.product {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.center {
+  align-items: center;
+  justify-content: space-around;
+}
